@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 
-const int jobsCnt = 100000;
-const int assignmentCnt = 10000000;
+const int jobsCnt = 10000;
+const int assignmentCnt = 1000000;
 const int resourcesCnt = 15000;
 
 var sw = new Stopwatch();
