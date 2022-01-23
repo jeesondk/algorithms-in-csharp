@@ -1,14 +1,14 @@
-using System;
+﻿using System;
 using FluentAssertions;
 using Xunit;
 using System.Diagnostics;
 
 namespace CSharp_Algorithms_lists_Tests;
 
-public class ArrayBasedTests
+public class DictionaryBasedTests
 {
     [Theory]
-    [Trait("TestType", "ArrayBased")]
+    [Trait("TestType", "DictionaryBased")]
     [InlineData(100, 10000, 150)]
     [InlineData(500, 50000, 750)]
     [InlineData(1000, 100000, 1500)]
@@ -20,12 +20,12 @@ public class ArrayBasedTests
     {
         var sw = new Stopwatch();
         
-        var arrayJobs = new Csharp_Algorithms_lists.ArrayBased.JobInitializer(jobsCnt).CreateJobs();
-        var arrayAssignments = new Csharp_Algorithms_lists.ArrayBased.AssignmentInitializer(assignmentCnt, arrayJobs.Length).CreateAssigns();
+        var dicJobs = new Csharp_Algorithms_lists.DictionaryBased.JobInitializer(jobsCnt).CreateJobs();
+        var dicAssignments = new Csharp_Algorithms_lists.DictionaryBased.AssignmentInitializer(assignmentCnt, dicJobs.Count).CreateAssigns();
 
         sw.Start();
         var jobAssignemntLinker =
-            new Csharp_Algorithms_lists.ArrayBased.JobAssignmentLinker(arrayJobs, arrayAssignments); 
+            new Csharp_Algorithms_lists.DictionaryBased.JobAssignmentLinker(dicJobs, dicAssignments); 
         
         Action act = () => jobAssignemntLinker.LinkItems();
         sw.Stop();
