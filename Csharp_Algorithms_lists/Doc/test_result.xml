@@ -1,87 +1,75 @@
-<assemblies timestamp="01/23/2022 13:27:15">
-  <assembly name="D:\src\CSharp\Algorithms in C#\Csharp_Algorithms_lists\Test\CSharp_Algorithms_lists_Tests\bin\Debug\net6.0\CSharp_Algorithms_lists_Tests.dll" run-date="2022-01-23" run-time="13:27:15" total="14" passed="10" failed="0" skipped="4" time="60.403" errors="0">
+<assemblies timestamp="01/23/2022 13:35:37">
+  <assembly name="D:\src\CSharp\Algorithms in C#\Csharp_Algorithms_lists\Test\CSharp_Algorithms_lists_Tests\bin\Debug\net6.0\CSharp_Algorithms_lists_Tests.dll" run-date="2022-01-23" run-time="13:35:37" total="14" passed="14" failed="0" skipped="0" time="6727.029" errors="0">
     <errors />
-    <collection total="7" passed="5" failed="0" skipped="2" name="Test collection for CSharp_Algorithms_lists_Tests.ArrayBasedTests" time="59.625">
-      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 100, assignmentCnt: 10000, resourcesCnt: 150)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="0.0417900" result="Pass">
+    <collection total="7" passed="7" failed="0" skipped="0" name="Test collection for CSharp_Algorithms_lists_Tests.ArrayBasedTests" time="6726.164">
+      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 100, assignmentCnt: 10000, resourcesCnt: 150)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="0.0373358" result="Pass">
         <traits>
           <trait name="TestType" value="ArrayBased" />
         </traits>
       </test>
-      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 100000, assignmentCnt: 10000000, resourcesCnt: 150000)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="0.0010000" result="Skip">
-        <reason><![CDATA[LongRunning]]></reason>
-        <output>LongRunning
-</output>
+      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 100000, assignmentCnt: 10000000, resourcesCnt: 150000)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="5507.6066547" result="Pass">
         <traits>
           <trait name="TestType" value="ArrayBased" />
         </traits>
       </test>
-      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 5000, assignmentCnt: 500000, resourcesCnt: 7500)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="13.0256311" result="Pass">
+      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 5000, assignmentCnt: 500000, resourcesCnt: 7500)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="11.7304023" result="Pass">
         <traits>
           <trait name="TestType" value="ArrayBased" />
         </traits>
       </test>
-      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 500, assignmentCnt: 50000, resourcesCnt: 750)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="0.1623702" result="Pass">
+      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 500, assignmentCnt: 50000, resourcesCnt: 750)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="0.1500417" result="Pass">
         <traits>
           <trait name="TestType" value="ArrayBased" />
         </traits>
       </test>
-      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 1000, assignmentCnt: 100000, resourcesCnt: 1500)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="0.5533376" result="Pass">
+      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 1000, assignmentCnt: 100000, resourcesCnt: 1500)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="0.5557217" result="Pass">
         <traits>
           <trait name="TestType" value="ArrayBased" />
         </traits>
       </test>
-      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 10000, assignmentCnt: 1000000, resourcesCnt: 15000)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="45.8400920" result="Pass">
+      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 10000, assignmentCnt: 1000000, resourcesCnt: 15000)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="46.0851323" result="Pass">
         <traits>
           <trait name="TestType" value="ArrayBased" />
         </traits>
       </test>
-      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 50000, assignmentCnt: 5000000, resourcesCnt: 75000)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="0.0010000" result="Skip">
-        <reason><![CDATA[LongRunning]]></reason>
-        <output>LongRunning
-</output>
+      <test name="CSharp_Algorithms_lists_Tests.ArrayBasedTests.CanRunListMerge(jobsCnt: 50000, assignmentCnt: 5000000, resourcesCnt: 75000)" type="CSharp_Algorithms_lists_Tests.ArrayBasedTests" method="CanRunListMerge" time="1159.9982726" result="Pass">
         <traits>
           <trait name="TestType" value="ArrayBased" />
         </traits>
       </test>
     </collection>
-    <collection total="7" passed="5" failed="0" skipped="2" name="Test collection for CSharp_Algorithms_lists_Tests.DictionaryBasedTests" time="2.540">
-      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 50000, assignmentCnt: 5000000, resourcesCnt: 75000)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="0.0010000" result="Skip">
-        <reason><![CDATA[LongRunning]]></reason>
-        <output>LongRunning
-</output>
+    <collection total="7" passed="7" failed="0" skipped="0" name="Test collection for CSharp_Algorithms_lists_Tests.DictionaryBasedTests" time="33.630">
+      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 50000, assignmentCnt: 5000000, resourcesCnt: 75000)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="12.2842409" result="Pass">
         <traits>
           <trait name="TestType" value="DictionaryBased" />
         </traits>
       </test>
-      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 10000, assignmentCnt: 1000000, resourcesCnt: 15000)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="1.6634049" result="Pass">
+      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 10000, assignmentCnt: 1000000, resourcesCnt: 15000)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="1.9333441" result="Pass">
         <traits>
           <trait name="TestType" value="DictionaryBased" />
         </traits>
       </test>
-      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 100, assignmentCnt: 10000, resourcesCnt: 150)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="0.0063102" result="Pass">
+      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 100, assignmentCnt: 10000, resourcesCnt: 150)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="0.0697363" result="Pass">
         <traits>
           <trait name="TestType" value="DictionaryBased" />
         </traits>
       </test>
-      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 5000, assignmentCnt: 500000, resourcesCnt: 7500)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="0.5918056" result="Pass">
+      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 5000, assignmentCnt: 500000, resourcesCnt: 7500)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="1.9300323" result="Pass">
         <traits>
           <trait name="TestType" value="DictionaryBased" />
         </traits>
       </test>
-      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 500, assignmentCnt: 50000, resourcesCnt: 750)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="0.0613842" result="Pass">
+      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 500, assignmentCnt: 50000, resourcesCnt: 750)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="0.0878795" result="Pass">
         <traits>
           <trait name="TestType" value="DictionaryBased" />
         </traits>
       </test>
-      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 100000, assignmentCnt: 10000000, resourcesCnt: 150000)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="0.0010000" result="Skip">
-        <reason><![CDATA[LongRunning]]></reason>
-        <output>LongRunning
-</output>
+      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 100000, assignmentCnt: 10000000, resourcesCnt: 150000)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="17.1702174" result="Pass">
         <traits>
           <trait name="TestType" value="DictionaryBased" />
         </traits>
       </test>
-      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 1000, assignmentCnt: 100000, resourcesCnt: 1500)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="0.2148154" result="Pass">
+      <test name="CSharp_Algorithms_lists_Tests.DictionaryBasedTests.CanRunListMerge(jobsCnt: 1000, assignmentCnt: 100000, resourcesCnt: 1500)" type="CSharp_Algorithms_lists_Tests.DictionaryBasedTests" method="CanRunListMerge" time="0.1549343" result="Pass">
         <traits>
           <trait name="TestType" value="DictionaryBased" />
         </traits>
