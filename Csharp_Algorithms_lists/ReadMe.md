@@ -29,6 +29,8 @@ To run tests with logger use command:
 ```
 As some tests are long runnig, expect that it will take at least 1:30:00 (HH:mm:SS)
 
+Excel sheet used for analyses can be updated once tests are done, by opening the [excel sheet](Doc/PerformanceAnalysis.xlsx), switching to tab "Data" and clicking "Update All".
+
 ### Results
 #### First five testcases
 ![first five testcases](Doc/chart_first_five_testcases.png "First five testcases")
