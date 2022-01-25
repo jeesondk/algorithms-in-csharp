@@ -20,6 +20,15 @@ Solution contains 7 testcases
 
 The main work here is to update all jobs with the releated assignments, as the assignements have the job number added when created.
 
+## Running tests with Report generation
+The solution uses [XUnit Test Logger](https://github.com/spekt/xunit.testlogger) package to record test data in XML format.
+To run tests with logger use command:
+
+```
+> dotnet test --logger:"xunit;LogFilePath=../../Doc/test_result.xml"
+```
+As some tests are long runnig, expect that it will take at least 1:30:00 (HH:mm:SS)
+
 ### Results
 #### First five testcases
 ![first five testcases](Doc/chart_first_five_testcases.png "First five testcases")
