@@ -22,11 +22,11 @@ The main work here is to update all jobs with the releated assignments, as the a
 
 ### Results
 #### First five testcases
-![first five testcases](Doc\chart_first_five_testcases.png "First five testcases")
+![first five testcases](Doc/chart_first_five_testcases.png "First five testcases")
 
 X-axis is in seconds, Y-axis is Case id
 
 #### All testcases
-![all testcases](Doc\chart_all_testcases.png "All testcases")
+![all testcases](Doc/chart_all_testcases.png "All testcases")
 
 X-axis is in seconds, Y-axis is Case id
