@@ -35,9 +35,9 @@ Excel sheet used for analyses can be updated once tests are done, by opening the
 #### First five testcases
 ![first five testcases](Doc/chart_first_five_testcases.png "First five testcases")
 
-X-axis is in seconds, Y-axis is Case id
+YX-axis is in seconds, X-axis is Case id
 
 #### All testcases
 ![all testcases](Doc/chart_all_testcases.png "All testcases")
 
-X-axis is in seconds, Y-axis is Case id
+Y-axis is in seconds, X-axis is Case id
